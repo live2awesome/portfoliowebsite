@@ -1,0 +1,101 @@
+baseURL: "https://arkalim.org"
+languageCode: en-us
+title: Parimal Gaurkhede
+theme: PaperMod
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: skills
+      name: Skills
+      url: /skills
+      weight: 10
+    - identifier: projects
+      name: Projects
+      url: /projects
+      weight: 30
+    - identifier: experience
+      name: Experience
+      url: /experience
+      weight: 40
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 50
+    # - identifier: tags
+    #   name: Tags
+    #   url: /tags
+    #   weight: 60
+    # - identifier: notes
+    #   name: Notes
+    #   url: https://notes.arkalim.org
+    #   weight: 70
+
+params:
+  # theme
+  showToc: true
+  TocOpen: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hideMeta: false
+
+  # for enchanced SEO
+  env: production
+
+  # Home Page
+  profileMode:
+    enabled: true
+    title: "Parimal Gaurkhede"
+    subtitle: Hi 👋! Welcome to my portfolio I'm Parimal Gaurkhede,an experienced data scientist with a passion for crafting innovative machine learning products.Throughout my journey, I've embraced diverse experiences, ranging from Linux administration to being a machine learning engineer. These experiences have not only honed my technical skills but also provided a holistic view of the tech industry.I am currently on a quest to become an indispensable AI asset for the industry and a long-term contributor to any organization.Join me in exploring the intersection of data and innovation as we navigate the exciting realm of artificial intelligence. Let's create a future where data-driven solutions redefine possibilities.
+    imageUrl: "home/parimal2.jpeg"
+    imageWidth: 220
+    imageHeight: 220
+    # buttons:
+    #   - name: Resume
+    #     url: ""
+
+  # List View
+  hideDescriptionInList: false
+
+  # cover image for posts
+  cover:
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  socialIcons:
+    - name: "email"
+      url: "mailto:gparimal30@gmail.com"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/parimal-rahul-gaurkhede-32502abb/"
+    - name: "github"
+      url: "https://github.com/live2awesome"
+    - name: "youtube"
+      url: "https://www.youtube.com/@parimalrahulgaurkhede222"
+    - name: "cv"
+      url: "https://drive.google.com/file/d/13vT7IQjZ_EHgf7VN7yoyMYyE3xOttIkh/view?usp=drivesdk"
+
+  # text search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# for search using Fuse.js
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# allow HTML in MD
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
