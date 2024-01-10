@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Smart Contracts on Parimal Gaurkhede</title>
+    <link>https://live2awesome.github.io/portfoliowebsite/tags/smart-contracts/</link>
+    <description>Recent content in Smart Contracts on Parimal Gaurkhede</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://live2awesome.github.io/portfoliowebsite/tags/smart-contracts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blockchain Powered Battery Replacement Platform(Ba-Tree)</title>
+      <link>https://live2awesome.github.io/portfoliowebsite/projects/ba-treeblockchainpoweredbatteryreplacementplatform/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://live2awesome.github.io/portfoliowebsite/projects/ba-treeblockchainpoweredbatteryreplacementplatform/</guid>
+      <description>It addresses the challenge of diverse vendors for electric vehicle batteries by providing a unified platform for Indian users</description>
+    </item>
+  </channel>
+</rss>
